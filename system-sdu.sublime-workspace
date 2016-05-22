@@ -1,0 +1,544 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ge",
+				"get	$.get()"
+			],
+			[
+				"Au",
+				"Auth::user	Get the currently authenticated user."
+			],
+			[
+				"Aut",
+				"Auth::user	Get the currently authenticated user."
+			],
+			[
+				"a",
+				"align	Attr"
+			],
+			[
+				"Auth",
+				"Auth::user	Get the currently authenticated user."
+			],
+			[
+				"strt",
+				"strtoupper"
+			],
+			[
+				"fo",
+				"form	Tag"
+			],
+			[
+				"se",
+				"select	Tag"
+			],
+			[
+				"ma",
+				"maxlength	Attr"
+			],
+			[
+				"prin",
+				"print_r"
+			],
+			[
+				"opt",
+				"option	Tag"
+			],
+			[
+				"req",
+				"request"
+			],
+			[
+				"strc",
+				"strcmp"
+			],
+			[
+				"Reque",
+				"Request::has	Determine if the uploaded data contains a file."
+			],
+			[
+				"sdu",
+				"sdu_id"
+			],
+			[
+				"max",
+				"max	Attr"
+			],
+			[
+				"di",
+				"div	Tag"
+			],
+			[
+				"li",
+				"li	Tag"
+			],
+			[
+				"h",
+				"h1	Tag"
+			],
+			[
+				"session",
+				"session_start"
+			],
+			[
+				"mysql",
+				"mysql_connect"
+			],
+			[
+				"b",
+				"body	Tag"
+			],
+			[
+				"num",
+				"num2"
+			],
+			[
+				"n",
+				"num2"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 375.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 386.0
+	},
+	"console":
+	{
+		"height": 160.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/Work/Website/works.petch.system-sdu",
+		"/D/Work/Website/works.petch.system-sdu/app/Http",
+		"/D/Work/Website/works.petch.system-sdu/app/Http/Controllers",
+		"/D/Work/Website/works.petch.system-sdu/app/Http/Controllers/Member",
+		"/D/Work/Website/works.petch.system-sdu/app/Http/Middleware",
+		"/D/Work/Website/works.petch.system-sdu/app/Http/Requests",
+		"/D/Work/Website/works.petch.system-sdu/database/migrations",
+		"/D/Work/Website/works.petch.system-sdu/database/seeds",
+		"/D/Work/Website/works.petch.system-sdu/public/assets",
+		"/D/Work/Website/works.petch.system-sdu/public/assets/css"
+	],
+	"file_history":
+	[
+		"/D/Work/Website/works.petch.e-meeting/composer.json",
+		"/D/Work/Website/works.petch.system-sdu/composer.json",
+		"/D/Work/Website/works.petch.system-sdu/resources/views/activities-show.blade.php",
+		"/D/Work/Website/works.petch.system-sdu/resources/views/member/activities/index.blade.php",
+		"/D/Work/Website/works.petch.system-sdu/app/Http/Controllers/ActivitiesController.php",
+		"/D/Work/Website/works.petch.system-sdu/app/Http/routes.php",
+		"/D/Work/Website/works.petch.system-sdu/app/Http/Controllers/ParentController.php",
+		"/D/Work/Website/works.petch.system-sdu/resources/views/activities-join.blade.php",
+		"/D/Work/Website/works.petch.system-sdu/resources/views/layouts/front-office.blade.php",
+		"/D/Work/Website/works.petch.system-sdu/resources/views/parent.blade.php",
+		"/D/Work/Website/works.petch.system-sdu/app/Activities.php",
+		"/D/Work/Website/works.petch.system-sdu/app/Http/Middleware/VerifyCsrfToken.php",
+		"/D/Work/Website/works.petch.system-sdu/resources/views/includes/header.blade.php",
+		"/D/Work/Website/works.petch.system-sdu/app/Http/Middleware/AdminMiddleware.php",
+		"/D/Work/Website/works.petch.system-sdu/app/ActivitiesCategory.php",
+		"/D/Work/Website/works.petch.system-sdu/resources/views/activities.blade.php",
+		"/D/Work/Website/works.petch.system-sdu/app/Http/Controllers/Member/ActivitiesCategoryController.php",
+		"/D/Work/Website/works.petch.system-sdu/app/Http/Controllers/Member/ActivitiesController.php",
+		"/D/Work/Website/works.petch.system-sdu/app/Http/Controllers/Member/MemberController.php",
+		"/D/Work/Website/works.petch.system-sdu/app/ActivitiesJoin.php",
+		"/D/Work/Website/works.petch.system-sdu/database/migrations/2016_05_22_060250_create_activities_join_table.php",
+		"/D/Work/Website/works.petch.system-sdu/resources/views/auth/login.blade.php",
+		"/D/Work/Website/works.petch.system-sdu/resources/views/auth/register.blade.php",
+		"/D/Work/Website/works.petch.system-sdu/resources/views/home.blade.php",
+		"/D/Work/Website/works.petch.system-sdu/database/migrations/2016_05_18_154609_create_activities_table.php",
+		"/D/Work/Website/works.petch.system-sdu/resources/views/member/activities/edit.blade.php",
+		"/D/Work/Website/works.petch.system-sdu/app/Http/Controllers/MemberController.php",
+		"/D/Work/Website/works.petch.system-sdu/resources/views/includes/member/navigation.blade.php",
+		"/D/Work/Website/works.petch.system-sdu/app/Http/Controllers/Auth/AuthController.php",
+		"/D/Work/Website/works.petch.system-sdu/app/User.php",
+		"/D/Work/Website/works.petch.system-sdu/database/seeds/UsersTableSeeder.php",
+		"/D/Work/Website/works.petch.system-sdu/resources/views/member/activities/create.blade.php",
+		"/D/Work/Website/works.petch.system-sdu/resources/views/member/activities-category/edit.blade.php",
+		"/D/Work/Website/works.petch.system-sdu/resources/views/member/activities-category/create.blade.php",
+		"/D/Work/Website/works.petch.system-sdu/resources/views/includes/member/header.blade.php",
+		"/D/Work/Website/works.petch.system-sdu/app/Providers/AppServiceProvider.php",
+		"/D/Work/Website/works.petch.system-sdu/resources/lang/th/validation.php",
+		"/D/Work/Website/works.petch.system-sdu/resources/views/member/home.blade.php",
+		"/D/Work/Website/works.petch.system-sdu/resources/assets/scss/custom/custom.scss",
+		"/D/Work/Website/works.petch.system-sdu/resources/assets/scss/custom/custom/_carousel.scss",
+		"/D/Work/Website/works.petch.system-sdu/resources/views/member/activities-category/index.blade.php",
+		"/D/Work/Website/works.petch.system-sdu/app/Http/Controllers/ActivitiesCategoryController.php",
+		"/D/Work/Website/works.petch.system-sdu/resources/views/member/activities-category/edit.php",
+		"/D/Work/Website/com.syslogmatch/resources/views/project/list.blade.php",
+		"/D/Work/Website/com.syslogmatch/resources/views/me/work.blade.php",
+		"/D/Work/Website/com.syslogmatch/app/Http/Controllers/ProjectController.php",
+		"/D/Work/Website/works.petch.system-sdu/resources/views/includes/member/link.blade.php",
+		"/D/Work/Website/com.syslogmatch/app/Http/Controllers/ApiController.php",
+		"/D/Work/Website/works.petch.system-sdu/database/migrations/2014_10_12_000000_create_users_table.php",
+		"/D/Work/Website/works.petch.e-meeting/resources/views/auth/register.blade.php",
+		"/D/Work/Website/works.petch.e-meeting/resources/views/auth/login.blade.php",
+		"/D/Work/Website/works.petch.system-sdu/vendor/laravel/framework/src/Illuminate/Auth/DatabaseUserProvider.php",
+		"/D/Work/Website/works.petch.system-sdu/resources/views/parent_service.blade.php",
+		"/D/Work/Website/works.petch.system-sdu/app/News.php",
+		"/D/Work/Website/works.petch.system-sdu/.env",
+		"/D/Work/Website/works.petch.system-sdu/database/migrations/2016_05_21_132256_create_news_table.php",
+		"/C/xampp/htdocs/gentelella-master/production/form_advanced.html",
+		"/C/xampp/htdocs/system-sdu/app/Http/Controllers/ActivitiesController.php",
+		"/C/xampp/htdocs/system-sdu/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php",
+		"/C/xampp/htdocs/gentelella-master/production/form_validation.html",
+		"/C/xampp/htdocs/system-sdu/database/migrations/2016_05_18_154609_create_activities_table.php",
+		"/C/xampp/htdocs/system-sdu/app/ActivitiesCategory.php",
+		"/C/xampp/htdocs/system-sdu/app/Http/routes.php",
+		"/C/xampp/htdocs/system-sdu/resources/views/member/activities/create.blade.php",
+		"/C/xampp/htdocs/system-sdu/public/assets/member/vendors/validator/validator.js",
+		"/C/xampp/htdocs/system-sdu/public/assets/member/vendors/validator/validator.min.js",
+		"/C/xampp/htdocs/system-sdu/public/assets/member/vendors/validator/README.md",
+		"/C/xampp/htdocs/system-sdu/vendor/laravel/framework/src/Illuminate/Foundation/Auth/User.php",
+		"/C/xampp/htdocs/system-sdu/app/User.php",
+		"/C/xampp/htdocs/system-sdu/resources/views/includes/member/script.blade.php",
+		"/C/xampp/htdocs/system-sdu/public/assets/member/js/custom.js",
+		"/C/xampp/htdocs/system-sdu/resources/views/member/activities/index.blade.php",
+		"/C/xampp/htdocs/system-sdu/resources/views/includes/member/link.blade.php",
+		"/C/xampp/htdocs/system-sdu/resources/views/layouts/app.blade.php",
+		"/C/xampp/htdocs/system-sdu/database/seeds/UsersTableSeeder.php",
+		"/C/xampp/htdocs/system-sdu/resources/views/home.blade.php",
+		"/C/xampp/htdocs/system-sdu/resources/views/parent_service.blade.php",
+		"/C/xampp/htdocs/system-sdu/resources/views/includes/header.blade.php",
+		"/C/xampp/htdocs/system-sdu/resources/views/includes/footer.blade.php",
+		"/C/xampp/htdocs/system-sdu/resources/views/includes/link.blade.php",
+		"/C/xampp/htdocs/system-sdu.old/parent_service.php",
+		"/C/xampp/htdocs/system-sdu/resources/views/member/parent_service.blade.php",
+		"/C/xampp/htdocs/system-sdu/resources/views/member/activities/parent_service.blade.php",
+		"/C/xampp/htdocs/system-sdu/resources/views/vendor/public relations.blade.php",
+		"/C/xampp/htdocs/system-sdu/resources/views/vendor/hhhh",
+		"/C/xampp/htdocs/system-sdu.old/index.php",
+		"/C/xampp/htdocs/system-sdu/app/Http/Middleware/TeacherMiddleware.php",
+		"/C/xampp/htdocs/system-sdu/app/Http/Middleware/AdminMiddleware.php",
+		"/C/xampp/htdocs/system-sdu/app/Http/Middleware/StudentMiddleware.php",
+		"/C/xampp/htdocs/system-sdu/resources/views/auth/login.blade.php",
+		"/C/xampp/htdocs/system-sdu/app/Http/Kernel.php",
+		"/C/xampp/htdocs/system-sdu/resources/views/includes/member/header.blade.php",
+		"/C/xampp/htdocs/system-sdu/resources/views/includes/member/navigation.blade.php",
+		"/C/xampp/htdocs/system-sdu/app/Http/Controllers/MemberController.php",
+		"/C/xampp/htdocs/system-sdu/resources/views/member/home.blade.php",
+		"/C/xampp/htdocs/system-sdu/app/Http/Controllers/Auth/AuthController.php",
+		"/C/xampp/htdocs/system-sdu/resources/views/layouts/member.blade.php",
+		"/C/xampp/htdocs/system-sdu/resources/views/includes/admin/link.blade.php",
+		"/C/xampp/htdocs/system-sdu/public/assets/admin/css/custom.css",
+		"/C/xampp/htdocs/system-sdu/resources/views/admin/home.blade.php",
+		"/C/xampp/htdocs/system-sdu/resources/views/layouts/admin.blade.php",
+		"/C/Users/Admin/Downloads/gentelella-master/production/index.html",
+		"/C/Users/Admin/Downloads/gentelella-master/production/plain_page.html",
+		"/C/xampp/htdocs/system-sdu/resources/views/includes/admin/script.blade.php",
+		"/C/xampp/htdocs/system-sdu/database/migrations/2014_10_12_000000_create_users_table.php",
+		"/C/xampp/htdocs/system-sdu/resources/views/includes/admin/footer.blade.php",
+		"/C/xampp/htdocs/system-sdu/resources/views/includes/admin/navigation.blade.php",
+		"/C/xampp/htdocs/system-sdu/resources/views/includes/admin/header.blade.php",
+		"/C/xampp/htdocs/system-sdu/app/Http/Controllers/AdminController.php",
+		"/C/xampp/htdocs/system-sdu/vendor/laravel/framework/src/Illuminate/Foundation/Auth/AuthenticatesUsers.php",
+		"/C/xampp/phpMyAdmin/config.inc.php",
+		"/C/xampp/htdocs/system-sdu/database/seeds/DatabaseSeeder.php",
+		"/C/xampp/htdocs/system-sdu/database/migrations/2016_05_18_155730_create_activities_list_table.php",
+		"/C/xampp/htdocs/system-sdu/database/migrations/2016_05_18_160851_create_activities_category_table.php",
+		"/C/xampp/htdocs/system-sdu/vendor/laravel/framework/src/Illuminate/Routing/Router.php",
+		"/C/xampp/htdocs/system-sdu/resources/views/auth/register.blade.php",
+		"/C/xampp/htdocs/system-sdu/resources/views/welcome.blade.php",
+		"/C/xampp/htdocs/system-sdu/resources/lang/th/validation.php",
+		"/C/xampp/htdocs/system-sdu/vendor/laravel/framework/src/Illuminate/Auth/Passwords/DatabaseTokenRepository.php",
+		"/C/xampp/htdocs/system-sdu/resources/assets/scss/bootstrap-sass-3.3.6/bootstrap/_normalize.scss",
+		"/C/xampp/htdocs/system-sdu/config/app.php",
+		"/C/xampp/htdocs/system-sdu/resources/assets/scss/bootstrap-sass-3.3.6/bootstrap/_forms.scss",
+		"/C/xampp/htdocs/system-sdu/resources/assets/scss/bootstrap-sass-3.3.6/bootstrap/_variables.scss",
+		"/C/xampp/htdocs/system-sdu/resources/views/layouts/basic-template.blade.php",
+		"/C/xampp/htdocs/system-sdu.old/menu.php",
+		"/C/xampp/htdocs/system-sdu/resources/assets/scss/app.scss",
+		"/C/xampp/htdocs/system-sdu/index.php",
+		"/C/xampp/htdocs/system-sdu/resources/assets/scss/custom/custom.scss"
+	],
+	"find":
+	{
+		"height": 41.0
+	},
+	"find_in_files":
+	{
+		"height": 98.0,
+		"where_history":
+		[
+			"C:\\xampp\\htdocs\\system-sdu\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent",
+			"C:\\xampp\\htdocs\\system-sdu\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Auth",
+			"C:\\xampp\\htdocs\\system-sdu\\vendor\\laravel\\framework\\src\\Illuminate\\Auth",
+			"C:\\xampp\\htdocs\\system-sdu\\vendor\\laravel\\framework\\src\\Illuminate",
+			"C:\\xampp\\htdocs\\system-sdu\\vendor\\laravel\\framework\\src\\Illuminate\\Auth",
+			"C:\\xampp\\htdocs\\system-sdu\\resources\\assets\\scss\\bootstrap-sass-3.3.6\\bootstrap"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"$(\"#grid\")",
+			"sdu_id",
+			"activities",
+			"/api/activities",
+			"/api/activities/",
+			"activities/join",
+			"เพิ่ม",
+			"$activities",
+			"Auth::user()",
+			"col-sm-4",
+			"md",
+			"6",
+			"user",
+			"\\",
+			"Controller",
+			"student",
+			"column-id",
+			"member",
+			"ActivitiesController",
+			"student",
+			"activities",
+			"sm",
+			"md",
+			"lg",
+			"function () {\n    return view('home');\n}",
+			"sdu_id",
+			"2",
+			"sm",
+			"                 ",
+			"                ",
+			"generation",
+			"n'",
+			"'a1'",
+			"section",
+			"admin",
+			"Admin",
+			"integer",
+			"format",
+			"name",
+			"$value->id",
+			"category",
+			"term-year",
+			"-category",
+			"ประเภท",
+			"เพิ่ม",
+			"id",
+			"users",
+			"activities/category",
+			"css/bootstrap-select.min.css",
+			"birth-year",
+			"sdu_id",
+			"$table->",
+			"sdu-id",
+			"birth-year",
+			"Type",
+			"type",
+			"sdu-id",
+			"Type",
+			"type",
+			"name",
+			"format",
+			"new car",
+			"daterangepicker",
+			"reservation",
+			"all",
+			"$data['type']",
+			"name",
+			"sdu_id",
+			",\n",
+			"	",
+			" ",
+			"		",
+			"			",
+			"		",
+			"				",
+			"			",
+			"please put something",
+			"users",
+			"'users'",
+			"\\",
+			"Form Validation",
+			"    ",
+			" data-order=\"desc\"",
+			"    ",
+			"\\",
+			"name",
+			"<input class=\"form-control\" name=\"password\" id=\"input-password\" placeholder=\"รหัสผ่าน\" type=\"password\">",
+			" type=\"password\">",
+			"<input class=\"form-control\" name=\"password\" id=\"input-password\" placeholder=\"รหัสผ่าน\" type=\"password\">",
+			"xxx",
+			"ActivitiesController",
+			"auth",
+			" }}",
+			"}}",
+			"email",
+			"admin",
+			"admin/",
+			"activities",
+			" <span class=\"fa fa-chevron-down\"></span>",
+			"}}",
+			"{{",
+			"body {",
+			"password",
+			"jquery",
+			"i",
+			"links",
+			"assets",
+			"css/custom.css",
+			"        $this->",
+			"auth(",
+			"address",
+			"xxxx",
+			"sdu_id",
+			"birth-day",
+			"validateLogin",
+			"validateLogin(",
+			"validate(",
+			"loginUsername",
+			"username",
+			"sdu-id",
+			"validateLogin",
+			"getCredentials",
+			"validateLogin",
+			"email",
+			"loginUsername(",
+			"loginUsername()",
+			"username",
+			"loginUsername"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 37.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "system-sdu.sublime-project",
+	"replace":
+	{
+		"height": 56.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 325.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

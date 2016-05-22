@@ -1,0 +1,148 @@
+.noUi-target {
+  position: relative;
+  direction: ltr;
+
+  &, & * {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -ms-touch-action: none;
+    touch-action: none; 
+  -ms-user-select: none;
+  -moz-user-select: none;
+  -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+}
+
+.noUi-base {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 1; /* Fix 401 */
+}
+
+.noUi-origin {
+  position: absolute;
+  right: 0;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  background: #d4d4d4;
+}
+
+.noUi-handle {
+  position: relative;
+  z-index: 1;
+}
+.noUi-stacking .noUi-handle {
+/* This class is applied to the lower origin when
+   its values is > 50%. */
+  z-index: 10;
+}
+.noUi-state-tap .noUi-origin {
+-webkit-transition: left 0.3s, top 0.3s;
+  transition: left 0.3s, top 0.3s;
+}
+.noUi-state-drag * {
+  cursor: inherit !important;
+}
+
+/* Painting and performance;
+ * Browsers can paint handles in their own layer.
+ */
+.noUi-base {
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
+
+/* Slider size and handle placement;
+ */
+.noUi-horizontal {
+  height: 3px;
+
+  .noUi-handle {
+    top: -8px;
+    left: -17px;
+  }
+}
+
+.noUi-vertical {
+  width: 3px;
+
+  .noUi-handle {
+    top: -17px;
+    left: -8px;
+  }
+}
+
+/* Styling;
+ */
+.noUi-background {
+  background-color: #d4d4d4;
+}
+
+.noUi-connect {
+  background: $brand-primary;
+  transition: background 450ms;
+}
+
+@each $color_name, $color in $colors {
+  @each $color_type, $color_value in $color {
+    @if $color_type == "base" {
+      .bgs-#{$color_name}.noUi-connect,
+      .bgs-#{$color_name} .noUi-connect {
+        background-color: $color_value !important;
+      }
+    }
+    @else {
+      .bgs-#{$color_name}.#{$color_type}.noUi-connect,
+      .bgs-#{$color_name}.#{$color_type} .noUi-connect {
+        background-color: $color_value !important;
+      }      
+    }
+  }
+}
+
+// Shade classes
+@each $color, $color_value in $shades {
+  .bgs-#{$color}.noUi-connect,
+  .bgs-#{$color} .noUi-connect {
+    background-color: $color_value !important;
+  }
+}
+
+
+/* Handles and cursors;
+ */
+.noUi-draggable {
+  cursor: w-resize;
+}
+.noUi-vertical .noUi-draggable {
+  cursor: n-resize;
+}
+.noUi-handle {
+  width: 19px;
+  height: 19px;
+  border-radius: 100%;
+  transition: box-shadow 200ms;
+  cursor: pointer;
+  position: relative;
+  background: #F1F1F1;
+  box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.4);
+  cursor: default;
+  z-index: 1;
+}
+.noUi-active {
+  box-shadow: 0 0 0 13px rgba(0, 0, 0, 0.1);
+}
+
+/* Disabled state;
+ */
+[disabled].noUi-connect,
+[disabled] .noUi-connect {
+  background: #B8B8B8;
+}
+[disabled].noUi-origin,
+[disabled] .noUi-handle {
+  cursor: not-allowed;
+}
